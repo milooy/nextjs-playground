@@ -19,10 +19,10 @@ export default async function Home() {
           <Link href="/newyork">뉴욕</Link>
         </li>
         <li>
-          <Link href="/london">런던</Link>
+          <a href="/london">런던(Link컴포넌트 안씀)</a>
         </li>
       </ul>
-      <RevalidateButton tag={"time"} />
+      {/* <RevalidateButton tag={"time"} /> */}
     </>
   );
 }
